@@ -1,6 +1,7 @@
 Write a program to print n to 1
 
 Using For Loop
+
 #JAVA
 import java.util.Scanner;
 public class numbers{
@@ -13,3 +14,8 @@ public class numbers{
         }
     }
 }
+
+#PYTHON
+n = int(input("Enter the number: "))
+for i in range(n, 0, -1):
+        print(i)
