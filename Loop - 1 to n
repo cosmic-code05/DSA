@@ -1,5 +1,6 @@
 Print 1 to n using or loop
 
+Using For Loop
 #JAVA
 import java.util.Scanner;
 public class numbers{
@@ -18,3 +19,18 @@ n = int(input("Enter the value of n: "))
 for i in range(1,n+1):
     print(i)
 
+Using While Loop
+#JAVA
+import java.util.Scanner;
+public class numbers{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n: ");
+        int n = sc.nextInt();
+        int i = 1;
+        while(i<=n){
+            System.out.println(i);
+            i++;
+        }
+    }
+}
