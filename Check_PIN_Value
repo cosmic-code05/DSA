@@ -1,0 +1,26 @@
+**Question:**
+Write a program to check whether the entered PIN is correct or not. The correct PIN is **4321**. If the entered PIN matches 4321, display **"Correct PIN"**, otherwise display **"Incorrect PIN"**.
+
+#**JAVA**
+import java.util.Scanner;
+
+public class pin{
+    public static void main (String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the PIN: ");
+        int n = sc.nextInt();
+        if(n==4321){
+            System.out.println("This is the correct PIN.");
+        }else{
+            System.out.println("This is not the correct PIN.");
+        }
+    }
+}
+
+#**PYTHON**
+n = int(input("Enter the value of PIN: "))
+
+if n == 4321:
+    print("Correct PIN")
+else:
+    print("Incorrect PIN")
