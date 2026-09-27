@@ -1,1 +1,24 @@
 Write a Python program to find the highest mark in a subject among 1000 students.
+
+#JAVA
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int highest = 0;
+
+        for (int i = 1; i <= 5; i++) {
+            System.out.print("Enter marks: ");
+            int marks = sc.nextInt();
+
+            if (marks > highest) {
+                highest = marks;
+            }
+        }
+
+        System.out.println("Highest mark = " + highest);
+    }
+}
