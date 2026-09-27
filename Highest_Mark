@@ -22,3 +22,14 @@ class Main {
         System.out.println("Highest mark = " + highest);
     }
 }
+
+#PYTHON
+highest = 0
+
+for i in range(1000):
+    marks = int(input("Enter marks: "))
+
+    if marks > highest:
+        highest = marks
+
+print("Highest mark =", highest)
