@@ -2,6 +2,22 @@ WAP to find the factorial of a numbers.
 Let n = 5
 5! = 1x2x3x4x5=120
 
+#JAVA
+import java.util.Scanner;
+public class evenNumber{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Number: ");
+        int n = sc.nextInt();
+        int factorial = 1;
+        for (int i = 1; i<=n ; i++){
+                factorial = factorial*i;
+                System.out.println("Factorial: "+factorial);
+        }
+        }
+    }
+
+
 #PYTHON
 n = int(input("Enter the number: "))
 fact = 1
