@@ -3,6 +3,7 @@
 
 A daily log of Data Structures & Algorithms problems I solve to build consistency and sharpen my problem-solving skills. The repo is updated regularly with new solutions, mostly in **Java** and **Python**.
 
+
 ## 🎯 Goal
 
 Solve at least one DSA problem every day, starting with the fundamentals and working up to harder topics.
